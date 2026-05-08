@@ -1,0 +1,33 @@
+# Add a new project by copying one of the blocks below.
+# Order in this file determines display order.
+
+- title: Next Gen Visuals
+  year: 2025–present
+  role: lead developer
+  stack: Python, Azure GPT-Image 2, Gemini, Pillow
+  description: >
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  links:
+    - label: writeup
+      url: "#"
+
+- title: Image Rating Web App
+  year: 2025
+  role: full-stack
+  stack: Next.js, Prisma, SQLite, shadcn/ui
+  description: >
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  links:
+    - label: github
+      url: "#"
+
+- title: 3D Virtual Try-On
+  year: 2024
+  role: research
+  stack: Python, PyTorch, XPBD
+  description: >
+    Physics-based garment simulation for virtual try-on, exploring SMPL-X
+    body models and differentiable cloth dynamics.
+  links:
+    - label: thesis
+      url: "#"

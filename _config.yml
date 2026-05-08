@@ -1,0 +1,47 @@
+# Site settings
+title: Patrick Schroeder
+tagline: "M.Sc student in Artificial Intelligence and Robotics"
+description: "Personal site of Patrick Schroeder"
+url: "https://bypschroeder.github.io"
+baseurl: ""
+
+# Author info — used on the hero page and in metadata
+author:
+  name: Patrick Schroeder
+  email: you@example.com
+  affiliation: "Hof University of Applied Sciences"
+  location: "Hof, Germany"
+
+# Social links — leave blank or remove any you don't use
+socials:
+  - name: github
+    url: https://github.com/bypschroeder
+  - name: researchgate
+    url: https://www.researchgate.net/profile/Patrick-Schroeder-13
+  - name: linkedin
+    url: https://linkedin.com/in/bypschroeder
+  - name: email
+    url: mailto:bypschroeder@gmail.com
+
+# Navigation — pages shown in the top nav
+nav:
+  - title: about
+    url: /about/
+  - title: projects
+    url: /projects/
+  - title: publications
+    url: /publications/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

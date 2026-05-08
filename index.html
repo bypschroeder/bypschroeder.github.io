@@ -1,0 +1,29 @@
+---
+layout: default
+title: home
+---
+
+<section class="hero">
+	<p class="prompt">$ whoami</p>
+	<h1>{{ site.author.name }}</h1>
+	<p class="tagline">{{ site.tagline }}</p>
+	<p class="meta">
+		{{ site.author.affiliation }} &middot; {{ site.author.location }}
+	</p>
+
+	<div class="hero-bio">
+		<p>
+			Most of what I work on and think about sits at the intersection of
+			generative models and computer vision. I'm drawn to the research side of
+			the field and care more about understanding ideas than chasing trends.
+			Lately I've been working on improving
+			<a href="{{ '/projects/' | relative_url }}">virtual try-on</a>.
+		</p>
+	</div>
+
+	<div class="socials">
+		{% for s in site.socials %}
+		<a href="{{ s.url }}" rel="me noopener">{{ s.name }}</a>
+		{% endfor %}
+	</div>
+</section>

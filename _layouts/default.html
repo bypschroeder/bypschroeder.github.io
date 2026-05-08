@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>
+			{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{
+			site.title }}{% endif %}
+		</title>
+		<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+		<link
+			rel="icon"
+			href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22 font-family=%22monospace%22 fill=%22%230066cc%22>&gt;_</text></svg>"
+		/>
+		{% seo %} {% feed_meta %}
+	</head>
+	<body>
+		<main class="wrap">
+			{% unless page.hide_nav %} {% include nav.html %} {% endunless %}
+
+			<article>{{ content }}</article>
+
+			<footer>
+				<p>
+					&copy; {{ 'now' | date: '%Y' }} {{ site.author.name }} &middot; built
+					with <a href="https://jekyllrb.com">jekyll</a>
+				</p>
+			</footer>
+		</main>
+	</body>
+</html>

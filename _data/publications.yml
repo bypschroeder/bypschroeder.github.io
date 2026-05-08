@@ -1,0 +1,12 @@
+# Add publications here. Sorted by year descending automatically.
+# Bold your name in `authors` with **Patrick Schroeder** if you like.
+
+- title: "SITUATE -- Synthetic Object Counting Dataset for VLM training"
+  authors: "Rene Peinl, Vincent Tischler, **Patrick Schröder**, Christian Groth"
+  venue: "accepted at 21st International Conference on Computer Vision Theory and Applications"
+  year: 2026
+  abstract: >
+    We present SITUATE, a novel dataset designed for training and evaluating Vision Language Models on counting tasks with spatial constraints. The dataset bridges the gap between simple 2D datasets like VLMCountBench and often ambiguous real-life datasets like TallyQA, which lack control over occlusions and spatial composition. Experiments show that our dataset helps to improve generalization for out-of-distribution images, since a finetune of Qwen VL 2.5 7B on SITUATE improves accuracy on the Pixmo count test data, but not vice versa. We cross validate this by comparing the model performance across established other counting benchmarks and against an equally sized fine-tuning set derived from Pixmo count.
+  links:
+    - label: pdf
+      url: "https://arxiv.org/pdf/2602.00108"

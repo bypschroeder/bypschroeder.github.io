@@ -1,0 +1,6 @@
+<nav>
+  <a href="{{ '/' | relative_url }}" class="nav-home">~/</a>
+  {% for item in site.nav %}
+    <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+  {% endfor %}
+</nav>
